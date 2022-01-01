@@ -170,14 +170,6 @@ export default (variables /* : * */ = variable) => {
       'NativeBase.Badge': {
         alignSelf: null
       },
-      'NativeBase.PickerNB': {
-        'NativeBase.Button': {
-          marginRight: -15,
-          'NativeBase.Text': {
-            color: variables.topTabBarActiveTextColor
-          }
-        }
-      },
       'NativeBase.Button': {
         alignSelf: null,
         '.transparent': {
@@ -396,9 +388,6 @@ export default (variables /* : * */ = variable) => {
         'NativeBase.Switch': {
           marginRight: Platform.OS === PLATFORM.IOS ? undefined : -5,
           alignSelf: null
-        },
-        'NativeBase.PickerNB': {
-          ...pickerTheme()
         },
         flexDirection: 'row',
         alignItems: 'center',
